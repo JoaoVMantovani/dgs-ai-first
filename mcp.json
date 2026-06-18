@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "fs-codigo": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "./src", "./tests"]
+    },
+    "fs-leitura": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "./docs", "./data"]
+    },
+    "project-memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+    "git-history": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-git", "."]
+    }
+  }
+}
